@@ -1,5 +1,5 @@
 function copyLinktreeUrl() {
-    const url = "https://linktr.ee/yourusername";  
+    const url = "https://lucasreed1.github.io/linktree/";  
     const icon = document.querySelector('.circle-icon');
 
 
