@@ -114,42 +114,42 @@ p {
 /* Mobile styles */
 @media (max-width: 768px) {
     body {
-        padding: 20px;
+        padding: 30px; /* Increased padding for mobile */
     }
 
     header {
         width: 100%;
-        padding: 10px;
+        padding: 20px;  /* Increased padding */
         margin-top: 20px;
     }
 
     .container {
         width: 100%;
-        padding: 10px;
+        padding: 20px;  /* Increased padding */
     }
 
     .tile {
-        font-size: 18px;
-        padding: 0 20px;
-        height: 70px;
+        font-size: 20px;  /* Increased font size */
+        padding: 0 30px;  /* Increased padding */
+        height: 80px;  /* Increased height */
     }
 
     h1 {
-        font-size: 6vw;
+        font-size: 8vw;  /* Increased font size */
     }
 
     p {
-        font-size: 22px;
+        font-size: 24px;  /* Increased font size */
         margin-right: 20px;
     }
 
     .share-button {
-        width: 50px;
-        height: 50px;
+        width: 60px;   /* Increased size */
+        height: 60px;  /* Increased size */
     }
 
     img {
-        width: 120px;
-        height: 120px;
+        width: 180px;  /* Increased image size */
+        height: 180px; /* Increased image size */
     }
 }
