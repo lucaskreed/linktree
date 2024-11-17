@@ -70,7 +70,6 @@ header {
     text-align: center; 
 }
 
-
 .tile:hover {
     background-color: #3e1a75; 
     color: white;  
@@ -102,7 +101,6 @@ h1 {
     font-size: 3vw;  
 }
 
-
 p {
     margin-right: 30px;
     color: rgb(0, 0, 0); 
@@ -111,4 +109,47 @@ p {
     width: 100%;  
     text-align: center;  
     padding: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    header {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .tile {
+        font-size: 18px;
+        padding: 0 20px;
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 22px;
+        margin-right: 20px;
+    }
+
+    .share-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
 }
