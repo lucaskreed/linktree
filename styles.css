@@ -23,12 +23,12 @@ body {
 }
 
 header {
-    width: 95%;
+    width: 90%;
     max-width: 788px;
     display: flex;
     justify-content: flex-start; 
     padding: 20px; 
-    margin-top: 20px;
+    margin-top: 30px;
     color: black;
 }
 
@@ -122,6 +122,8 @@ p {
     justify-content: center;
     cursor: pointer; 
     transition: transform 0.3s ease; 
+    position: relative;  
+    top: 40px;         
 }
 
 .circle-icon:hover {
