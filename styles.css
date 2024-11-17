@@ -27,14 +27,14 @@ header {
     max-width: 788px;
     display: flex;
     justify-content: flex-start; 
-    padding: 12px;
-    margin-top: 10px;
+    padding: 20px;  /* Increased padding */
+    margin-top: 20px;
 }
 
 .share-button {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+    width: 60px;  /* Increased size */
+    height: 60px; 
+    border-radius: 30px;  /* Adjusted for larger size */
     background-color: white;
     display: flex;
     align-items: center;
@@ -43,48 +43,48 @@ header {
 }
 
 .container {
-    width: 91%;
-    max-width: 680px;
-    margin: 10px;
+    width: 95%;  /* Increased container width */
+    max-width: 800px;  /* Increased max width */
+    margin: 20px;
     display: flex;
     flex-direction: column;  
     align-items: center;  
     justify-content: center; 
     flex-grow: 1;
-    padding-bottom: 20px;
+    padding-bottom: 40px;  /* Increased padding */
 }
 
 .tile {
-    height: 56px;
+    height: 80px;  /* Increased height */
     width: 100%;
     background-color: white;
-    margin: 7px 0;
-    border-radius: 17px;
+    margin: 10px 0;  /* Increased margin */
+    border-radius: 25px;  /* Increased border-radius */
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 15px;
+    padding: 0 30px;  /* Increased padding */
     text-decoration: none; 
     color: black; 
-    font-size: 16px; 
+    font-size: 20px;  /* Increased font size */
     text-align: center; 
 }
 
 .tile:hover {
     background-color: #3e1a75; 
     color: white;  
-    transform: scale(1.05); 
+    transform: scale(1.1);  /* Increased hover effect */
 }
 
 .icon {
-    width: 24px;   
-    height: 24px;  
-    margin-right: 10px;  
+    width: 32px;  /* Larger icon */
+    height: 32px;  
+    margin-right: 15px;  /* Increased space */
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;  /* Larger image */
+    height: 200px;
     border-radius: 50px;
     object-fit: cover;
 }
@@ -98,58 +98,15 @@ h1 {
     margin: 0;
     color: white;
     flex-shrink: 0;  
-    font-size: 3vw;  
+    font-size: 6vw;  /* Larger font size */
 }
 
 p {
-    margin-right: 30px;
+    margin-right: 40px;  /* Increased margin */
     color: rgb(0, 0, 0); 
-    font-size: 20px;
+    font-size: 28px;  /* Increased font size */
     font-weight: bold;
     width: 100%;  
     text-align: center;  
     padding: 0;
-}
-
-/* Mobile styles */
-@media (max-width: 768px) {
-    body {
-        padding: 30px; /* Increased padding for mobile */
-    }
-
-    header {
-        width: 100%;
-        padding: 20px;  /* Increased padding */
-        margin-top: 20px;
-    }
-
-    .container {
-        width: 100%;
-        padding: 20px;  /* Increased padding */
-    }
-
-    .tile {
-        font-size: 20px;  /* Increased font size */
-        padding: 0 30px;  /* Increased padding */
-        height: 80px;  /* Increased height */
-    }
-
-    h1 {
-        font-size: 8vw;  /* Increased font size */
-    }
-
-    p {
-        font-size: 24px;  /* Increased font size */
-        margin-right: 20px;
-    }
-
-    .share-button {
-        width: 60px;   /* Increased size */
-        height: 60px;  /* Increased size */
-    }
-
-    img {
-        width: 180px;  /* Increased image size */
-        height: 180px; /* Increased image size */
-    }
 }
