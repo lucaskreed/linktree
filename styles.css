@@ -27,7 +27,7 @@ header {
     max-width: 788px;
     display: flex;
     justify-content: flex-start; 
-    padding: 20px; 
+    padding: 0px; 
     margin-top: 30px;
     color: black;
 }
@@ -103,7 +103,7 @@ h1 {
 }
 
 p {
-    margin-right: 40px;  
+    margin-right: 60px;  
     color: rgb(0, 0, 0); 
     font-size: 28px;  
     font-weight: bold;
@@ -135,6 +135,3 @@ p {
     height: 30px;
     fill: white; 
 }
-
-
-
