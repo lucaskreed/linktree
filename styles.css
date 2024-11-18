@@ -52,7 +52,7 @@ header {
     align-items: center;  
     justify-content: center; 
     flex-grow: 1;
-    padding-bottom: 40px;  
+    padding-bottom: 0px;  
 }
 
 .tile {
@@ -85,13 +85,9 @@ header {
 
 img {
     width: 250px;
-    height: auto;
-    border-radius: 50px;
-    object-fit: cover;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Shifts it back by 50% of its own size */
+    height: 250px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
 }
 
 h1 {
