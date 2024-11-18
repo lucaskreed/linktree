@@ -85,7 +85,7 @@ header {
 
 img {
     width: 250px; 
-    height: 250px;
+    height: auto;
     border-radius: 50px;
     object-fit: cover;
 }
