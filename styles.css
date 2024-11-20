@@ -86,8 +86,8 @@ header {
 img {
     width: 250px;
     height: 250px;
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+    border-radius: 50%; 
+    object-fit: cover; 
 }
 
 h1 {
